@@ -1,0 +1,1117 @@
+{
+  "factory": {
+    "name": "Factory",
+    "keys": [
+      {
+        "id": "5448ba0b4bdc2d02308b456c",
+        "name": "Factory emergency exit key",
+        "shortName": "Factory"
+      },
+      {
+        "id": "66acd6702b17692df20144c0",
+        "name": "TerraGroup storage room keycard",
+        "shortName": "Polikhim"
+      }
+    ]
+  },
+  "customs": {
+    "name": "Customs",
+    "keys": [
+      {
+        "id": "6761a6f90575f25e020816a4",
+        "name": "Company director's room key",
+        "shortName": "Company"
+      },
+      {
+        "id": "59136a4486f774447a1ed172",
+        "name": "Dorm guard desk key",
+        "shortName": "GDesk"
+      },
+      {
+        "id": "664d4b0103ef2c61246afb56",
+        "name": "Dorm overseer key",
+        "shortName": "Overseer"
+      },
+      {
+        "id": "5938994586f774523a425196",
+        "name": "Dorm room 103 key",
+        "shortName": "Dorm 103"
+      },
+      {
+        "id": "591383f186f7744a4c5edcf3",
+        "name": "Dorm room 104 key",
+        "shortName": "Dorm 104"
+      },
+      {
+        "id": "591382d986f774465a6413a7",
+        "name": "Dorm room 105 key",
+        "shortName": "Dorm 105"
+      },
+      {
+        "id": "5914578086f774123569ffa4",
+        "name": "Dorm room 108 key",
+        "shortName": "Dorm 108"
+      },
+      {
+        "id": "59136e1e86f774432f15d133",
+        "name": "Dorm room 110 key",
+        "shortName": "Dorm 110"
+      },
+      {
+        "id": "59387a4986f77401cc236e62",
+        "name": "Dorm room 114 key",
+        "shortName": "Dorm 114"
+      },
+      {
+        "id": "5672c92d4bdc2d180f8b4567",
+        "name": "Dorm room 118 key",
+        "shortName": "Dorm 118"
+      },
+      {
+        "id": "5938504186f7740991483f30",
+        "name": "Dorm room 203 key",
+        "shortName": "Dorm 203"
+      },
+      {
+        "id": "59148c8a86f774197930e983",
+        "name": "Dorm room 204 key",
+        "shortName": "Dorm 204"
+      },
+      {
+        "id": "5938603e86f77435642354f4",
+        "name": "Dorm room 206 key",
+        "shortName": "Dorm 206"
+      },
+      {
+        "id": "5780cf942459777df90dcb72",
+        "name": "Dorm room 214 key",
+        "shortName": "Dorm 214"
+      },
+      {
+        "id": "5780cf9e2459777df90dcb73",
+        "name": "Dorm room 218 key",
+        "shortName": "Dorm 218"
+      },
+      {
+        "id": "5780cfa52459777dfb276eb1",
+        "name": "Dorm room 220 key",
+        "shortName": "Dorm 220"
+      },
+      {
+        "id": "593aa4be86f77457f56379f8",
+        "name": "Dorm room 303 key",
+        "shortName": "Dorm 303"
+      },
+      {
+        "id": "5780cda02459777b272ede61",
+        "name": "Dorm room 306 key",
+        "shortName": "Dorm 306"
+      },
+      {
+        "id": "5780cf722459777a5108b9a1",
+        "name": "Dorm room 308 key",
+        "shortName": "Dorm 308"
+      },
+      {
+        "id": "5780cf7f2459777de4559322",
+        "name": "Dorm room 314 marked key",
+        "shortName": "Dorm 314"
+      },
+      {
+        "id": "5780cf692459777de4559321",
+        "name": "Dorm room 315 key",
+        "shortName": "Dorm 315"
+      },
+      {
+        "id": "5448ba0b4bdc2d02308b456c",
+        "name": "Factory emergency exit key",
+        "shortName": "Factory"
+      },
+      {
+        "id": "5780d0652459777df90dcb74",
+        "name": "Gas station office key",
+        "shortName": "Gas office"
+      },
+      {
+        "id": "5913877a86f774432f15d444",
+        "name": "Gas station storage room key",
+        "shortName": "Gas store"
+      },
+      {
+        "id": "5937ee6486f77408994ba448",
+        "name": "Machinery key",
+        "shortName": "Machinery"
+      },
+      {
+        "id": "5938144586f77473c2087145",
+        "name": "Portable bunkhouse key",
+        "shortName": "Bunkhouse"
+      },
+      {
+        "id": "5780d07a2459777de4559324",
+        "name": "Portable cabin key",
+        "shortName": "Cabin"
+      },
+      {
+        "id": "5780d0532459777a5108b9a2",
+        "name": "Tarcone Director's office key",
+        "shortName": "Director's"
+      },
+      {
+        "id": "5913611c86f77479e0084092",
+        "name": "Trailer park portable cabin key",
+        "shortName": "Cabin"
+      },
+      {
+        "id": "593962ca86f774068014d9af",
+        "name": "Unknown key",
+        "shortName": "Unknown"
+      },
+      {
+        "id": "5da743f586f7744014504f72",
+        "name": "USEC stash key",
+        "shortName": "USEC"
+      }
+    ]
+  },
+  "woods": {
+    "name": "Woods",
+    "keys": [
+      {
+        "id": "6761a6ccd9bbb27ad703c48a",
+        "name": "Old house room key",
+        "shortName": "Depot"
+      },
+      {
+        "id": "664d3db6db5dea2bad286955",
+        "name": "Shatun's hideout key",
+        "shortName": "Shatun"
+      },
+      {
+        "id": "5d08d21286f774736e7c94c3",
+        "name": "Shturman's stash key",
+        "shortName": "SSK"
+      },
+      {
+        "id": "591afe0186f77431bd616a11",
+        "name": "ZB-014 key",
+        "shortName": "ZB-014"
+      }
+    ]
+  },
+  "lighthouse": {
+    "name": "Lighthouse",
+    "keys": [
+      {
+        "id": "61a6446f4b5f8b70f451b166",
+        "name": "Cold storage room key",
+        "shortName": "Cold"
+      },
+      {
+        "id": "62987cb98081af308d7558c8",
+        "name": "Conference room key",
+        "shortName": "Conf."
+      },
+      {
+        "id": "61a64428a8c6aa1b795f0ba1",
+        "name": "Convenience store storage room key",
+        "shortName": "Store"
+      },
+      {
+        "id": "5448ba0b4bdc2d02308b456c",
+        "name": "Factory emergency exit key",
+        "shortName": "Factory"
+      },
+      {
+        "id": "61a6444b8c141d68246e2d2f",
+        "name": "Hillside house key",
+        "shortName": "House"
+      },
+      {
+        "id": "664d3de85f2355673b09aed5",
+        "name": "Leon's hideout key",
+        "shortName": "Leon"
+      },
+      {
+        "id": "61aa5b518f5e7a39b41416e2",
+        "name": "Merin car trunk key",
+        "shortName": "Merin"
+      },
+      {
+        "id": "62987da96188c076bc0d8c51",
+        "name": "Operating room key",
+        "shortName": "OR"
+      },
+      {
+        "id": "61aa5aed32a4743c3453d319",
+        "name": "Police truck cabin key",
+        "shortName": "Police"
+      },
+      {
+        "id": "62987c658081af308d7558c6",
+        "name": "Radar station commandant room key",
+        "shortName": "Radar"
+      },
+      {
+        "id": "62a9cb937377a65d7b070cef",
+        "name": "Rogue USEC barrack key",
+        "shortName": "Barrack"
+      },
+      {
+        "id": "61a64492ba05ef10d62adcc1",
+        "name": "Rogue USEC stash key",
+        "shortName": "Stash"
+      },
+      {
+        "id": "61aa81fcb225ac1ead7957c3",
+        "name": "Rogue USEC workshop key",
+        "shortName": "Workshop"
+      },
+      {
+        "id": "62987dfc402c7f69bf010923",
+        "name": "Shared bedroom marked key",
+        "shortName": "Bedroom"
+      },
+      {
+        "id": "61aa5b7db225ac1ead7957c1",
+        "name": "USEC cottage first safe key",
+        "shortName": "USEC 1"
+      },
+      {
+        "id": "66265d7be65f224b2e17c6aa",
+        "name": "USEC cottage room key",
+        "shortName": "USEC cott."
+      },
+      {
+        "id": "61aa5ba8018e9821b7368da9",
+        "name": "USEC cottage second safe key",
+        "shortName": "USEC 2"
+      },
+      {
+        "id": "62987e26a77ec735f90a2995",
+        "name": "Water treatment plant storage room key",
+        "shortName": "WTP store"
+      }
+    ]
+  },
+  "shoreline": {
+    "name": "Shoreline",
+    "keys": [
+      {
+        "id": "5a0eb6ac86f7743124037a28",
+        "name": "Cottage back door key",
+        "shortName": "Cottage"
+      },
+      {
+        "id": "5a0f068686f7745b0d4ea242",
+        "name": "Cottage safe key",
+        "shortName": "Safe"
+      },
+      {
+        "id": "5448ba0b4bdc2d02308b456c",
+        "name": "Factory emergency exit key",
+        "shortName": "Factory"
+      },
+      {
+        "id": "5a0ea64786f7741707720468",
+        "name": "Health Resort east wing office room 107 key",
+        "shortName": "E107 San"
+      },
+      {
+        "id": "5a144bdb86f7741d374bbde0",
+        "name": "Health Resort east wing room 205 key",
+        "shortName": "E205 San"
+      },
+      {
+        "id": "5a0ee4b586f7743698200d22",
+        "name": "Health Resort east wing room 206 key",
+        "shortName": "E206 San"
+      },
+      {
+        "id": "5a13f24186f77410e57c5626",
+        "name": "Health Resort east wing room 222 key",
+        "shortName": "E222 San"
+      },
+      {
+        "id": "5a13f35286f77413ef1436b0",
+        "name": "Health Resort east wing room 226 key",
+        "shortName": "E226 San"
+      },
+      {
+        "id": "5a145d4786f7744cbb6f4a12",
+        "name": "Health Resort east wing room 306 key",
+        "shortName": "E306 San"
+      },
+      {
+        "id": "5a145d7b86f7744cbb6f4a13",
+        "name": "Health Resort east wing room 308 key",
+        "shortName": "E308 San"
+      },
+      {
+        "id": "5a0eec9686f77402ac5c39f2",
+        "name": "Health Resort east wing room 310 key",
+        "shortName": "E310 San"
+      },
+      {
+        "id": "5a0eecf686f7740350630097",
+        "name": "Health Resort east wing room 313 key",
+        "shortName": "E313 San"
+      },
+      {
+        "id": "5a0eed4386f77405112912aa",
+        "name": "Health Resort east wing room 314 key",
+        "shortName": "E314 San"
+      },
+      {
+        "id": "5a145ebb86f77458f1796f05",
+        "name": "Health Resort east wing room 316 key",
+        "shortName": "E316 San"
+      },
+      {
+        "id": "5a0eee1486f77402aa773226",
+        "name": "Health Resort east wing room 328 key",
+        "shortName": "E328 San"
+      },
+      {
+        "id": "5a0f08bc86f77478f33b84c2",
+        "name": "Health Resort management office safe key",
+        "shortName": "Safe"
+      },
+      {
+        "id": "5a0f0f5886f7741c4e32a472",
+        "name": "Health Resort management warehouse safe key",
+        "shortName": "Safe"
+      },
+      {
+        "id": "5eff09cd30a7dc22fd1ddfed",
+        "name": "Health Resort office key with a blue tape",
+        "shortName": "San tape"
+      },
+      {
+        "id": "5a0ea79b86f7741d4a35298e",
+        "name": "Health Resort universal utility room key",
+        "shortName": "San util."
+      },
+      {
+        "id": "5a0dc45586f7742f6b0b73e3",
+        "name": "Health Resort west wing office room 104 key",
+        "shortName": "W104 San"
+      },
+      {
+        "id": "5a0dc95c86f77452440fc675",
+        "name": "Health Resort west wing office room 112 key",
+        "shortName": "W112 San"
+      },
+      {
+        "id": "5a144dfd86f77445cb5a0982",
+        "name": "Health Resort west wing room 203 key",
+        "shortName": "W203 San"
+      },
+      {
+        "id": "5a0ec6d286f7742c0b518fb5",
+        "name": "Health Resort west wing room 205 key",
+        "shortName": "W205 San"
+      },
+      {
+        "id": "5a0ee30786f774023b6ee08f",
+        "name": "Health Resort west wing room 216 key",
+        "shortName": "W216 San"
+      },
+      {
+        "id": "5a13eebd86f7746fd639aa93",
+        "name": "Health Resort west wing room 218 key",
+        "shortName": "W218 San"
+      },
+      {
+        "id": "5a13ef0686f7746e5a411744",
+        "name": "Health Resort west wing room 219 key",
+        "shortName": "W219 San"
+      },
+      {
+        "id": "5a0ee34586f774023b6ee092",
+        "name": "Health Resort west wing room 220 key",
+        "shortName": "W220 San"
+      },
+      {
+        "id": "5a0ee37f86f774023657a86f",
+        "name": "Health Resort west wing room 221 key",
+        "shortName": "W221 San"
+      },
+      {
+        "id": "5a1452ee86f7746f33111763",
+        "name": "Health Resort west wing room 222 key",
+        "shortName": "W222 San"
+      },
+      {
+        "id": "5a13ef7e86f7741290491063",
+        "name": "Health Resort west wing room 301 key",
+        "shortName": "W301 San"
+      },
+      {
+        "id": "5a13f46386f7741dd7384b04",
+        "name": "Health Resort west wing room 306 key",
+        "shortName": "W306 San"
+      },
+      {
+        "id": "5a0eff2986f7741fd654e684",
+        "name": "Health Resort west wing room 321 safe key",
+        "shortName": "W321 safe"
+      },
+      {
+        "id": "5d8e15b686f774445103b190",
+        "name": "HEP station storage room key",
+        "shortName": "HEPS"
+      },
+      {
+        "id": "679b9716597ba2ed120c3d3f",
+        "name": "Knossos LLC facility key",
+        "shortName": "Knossos"
+      },
+      {
+        "id": "5a0eb38b86f774153b320eb0",
+        "name": "SMW car key",
+        "shortName": "SMW"
+      },
+      {
+        "id": "664d3ddfdda2e85aca370d75",
+        "name": "Voron's hideout key",
+        "shortName": "Voron"
+      }
+    ]
+  },
+  "reserve": {
+    "name": "Reserve",
+    "keys": [
+      {
+        "id": "5d80c78786f774403a401e3e",
+        "name": "RB-AK key",
+        "shortName": "RB-AK"
+      },
+      {
+        "id": "5d80c88d86f77440556dbf07",
+        "name": "RB-AM key",
+        "shortName": "RB-AM"
+      },
+      {
+        "id": "5d80c66d86f774405611c7d6",
+        "name": "RB-AO key",
+        "shortName": "RB-AO"
+      },
+      {
+        "id": "5d80c60f86f77440373c4ece",
+        "name": "RB-BK marked key",
+        "shortName": "RB-BK"
+      },
+      {
+        "id": "5d8e3ecc86f774414c78d05e",
+        "name": "RB-GN key",
+        "shortName": "RB-GN"
+      },
+      {
+        "id": "5d8e0db586f7744450412a42",
+        "name": "RB-KORL key",
+        "shortName": "RB-KORL"
+      },
+      {
+        "id": "5d8e0e0e86f774321140eb56",
+        "name": "RB-KPRL key",
+        "shortName": "RB-KPRL"
+      },
+      {
+        "id": "5d947d4e86f774447b415895",
+        "name": "RB-KSM key",
+        "shortName": "RB-KSM"
+      },
+      {
+        "id": "5d80c93086f7744036212b41",
+        "name": "RB-MP11 key",
+        "shortName": "RB-MP11"
+      },
+      {
+        "id": "5d80c95986f77440351beef3",
+        "name": "RB-MP12 key",
+        "shortName": "RB-MP12"
+      },
+      {
+        "id": "5d80cbd886f77470855c26c2",
+        "name": "RB-MP13 key",
+        "shortName": "RB-MP13"
+      },
+      {
+        "id": "5d80ca9086f774403a401e40",
+        "name": "RB-MP21 key",
+        "shortName": "RB-MP21"
+      },
+      {
+        "id": "5d80cab086f77440535be201",
+        "name": "RB-MP22 key",
+        "shortName": "RB-MP22"
+      },
+      {
+        "id": "5d80c6c586f77440351beef1",
+        "name": "RB-OB key",
+        "shortName": "RB-OB"
+      },
+      {
+        "id": "5d80c8f586f77440373c4ed0",
+        "name": "RB-OP key",
+        "shortName": "RB-OP"
+      },
+      {
+        "id": "5d80ccac86f77470841ff452",
+        "name": "RB-ORB1 key",
+        "shortName": "RB-ORB1"
+      },
+      {
+        "id": "5d80ccdd86f77474f7575e02",
+        "name": "RB-ORB2 key",
+        "shortName": "RB-ORB2"
+      },
+      {
+        "id": "5d80cd1a86f77402aa362f42",
+        "name": "RB-ORB3 key",
+        "shortName": "RB-ORB3"
+      },
+      {
+        "id": "5ede7a8229445733cb4c18e2",
+        "name": "RB-PKPM marked key",
+        "shortName": "RB-PKPM"
+      },
+      {
+        "id": "5d80cb3886f77440556dbf09",
+        "name": "RB-PSP1 key",
+        "shortName": "RB-PSP1"
+      },
+      {
+        "id": "5d95d6fa86f77424484aa5e9",
+        "name": "RB-PSP2 key",
+        "shortName": "RB-PSP2"
+      },
+      {
+        "id": "5d80cb5686f77440545d1286",
+        "name": "RB-PSV1 key",
+        "shortName": "RB-PSV1"
+      },
+      {
+        "id": "5d95d6be86f77424444eb3a7",
+        "name": "RB-PSV2 key",
+        "shortName": "RB-PSV2"
+      },
+      {
+        "id": "5da5cdcd86f774529238fb9b",
+        "name": "RB-RH key",
+        "shortName": "RB-RH"
+      },
+      {
+        "id": "5ede7b0c6d23e5473e6e8c66",
+        "name": "RB-RLSA key",
+        "shortName": "RB-RLSA"
+      },
+      {
+        "id": "5da46e3886f774653b7a83fe",
+        "name": "RB-RS key",
+        "shortName": "RB-RS"
+      },
+      {
+        "id": "5d947d3886f774447b415893",
+        "name": "RB-SMP key",
+        "shortName": "RB-SMP"
+      },
+      {
+        "id": "5d9f1fa686f774726974a992",
+        "name": "RB-ST key",
+        "shortName": "RB-ST"
+      },
+      {
+        "id": "5d80c6fc86f774403a401e3c",
+        "name": "RB-TB key",
+        "shortName": "RB-TB"
+      },
+      {
+        "id": "5d80c62a86f7744036212b3f",
+        "name": "RB-VO marked key",
+        "shortName": "RB-VO"
+      }
+    ]
+  },
+  "interchange": {
+    "name": "Interchange",
+    "keys": [
+      {
+        "id": "5ad5db3786f7743568421cce",
+        "name": "EMERCOM medical unit key",
+        "shortName": "EMC"
+      },
+      {
+        "id": "5448ba0b4bdc2d02308b456c",
+        "name": "Factory emergency exit key",
+        "shortName": "Factory"
+      },
+      {
+        "id": "5ad7247386f7747487619dc3",
+        "name": "Goshan cash register key",
+        "shortName": "Goshan reg."
+      },
+      {
+        "id": "664d3dd590294949fe2d81b7",
+        "name": "Grumpy's hideout key",
+        "shortName": "Grumpy"
+      },
+      {
+        "id": "5ad7242b86f7740a6a3abd43",
+        "name": "IDEA cash register key",
+        "shortName": "IDEA reg."
+      },
+      {
+        "id": "5addaffe86f77470b455f900",
+        "name": "Kiba Arms inner grate door key",
+        "shortName": "KIBA inner"
+      },
+      {
+        "id": "5ad5d7d286f77450166e0a89",
+        "name": "Kiba Arms outer door key",
+        "shortName": "KIBA outer"
+      },
+      {
+        "id": "5ad5d64486f774079b080af8",
+        "name": "NecrusPharm pharmacy key",
+        "shortName": "Pharmacy"
+      },
+      {
+        "id": "5e42c81886f7742a01529f57",
+        "name": "Object #11SR keycard",
+        "shortName": "#11SR"
+      },
+      {
+        "id": "5e42c83786f7742a021fdf3c",
+        "name": "Object #21WS keycard",
+        "shortName": "#21WS"
+      },
+      {
+        "id": "5ad5ccd186f774446d5706e9",
+        "name": "OLI administration office key",
+        "shortName": "OLI office"
+      },
+      {
+        "id": "5ad7217186f7746744498875",
+        "name": "OLI cash register key",
+        "shortName": "OLI reg."
+      },
+      {
+        "id": "5ad5cfbd86f7742c825d6104",
+        "name": "OLI logistics department office key",
+        "shortName": "OLI Log."
+      },
+      {
+        "id": "5ad5d20586f77449be26d877",
+        "name": "OLI outlet utility room key",
+        "shortName": "OLI util."
+      },
+      {
+        "id": "5ad5d49886f77455f9731921",
+        "name": "Power substation utility cabin key",
+        "shortName": "Power"
+      },
+      {
+        "id": "5e42c71586f7747f245e1343",
+        "name": "ULTRA medical storage key",
+        "shortName": "ULTRA med."
+      }
+    ]
+  },
+  "streets-of-tarkov": {
+    "name": "Streets of Tarkov",
+    "keys": [
+      {
+        "id": "6582dbe43a2e5248357dbe9a",
+        "name": "\"Negotiation\" room key",
+        "shortName": "Negotiations"
+      },
+      {
+        "id": "63a3a93f8a56922e82001f5d",
+        "name": "Abandoned factory marked key",
+        "shortName": "Aband."
+      },
+      {
+        "id": "63a39e49cd6db0635c1975fc",
+        "name": "Archive room key",
+        "shortName": "Archives"
+      },
+      {
+        "id": "64ce572331dd890873175115",
+        "name": "Aspect company office key",
+        "shortName": "Aspect"
+      },
+      {
+        "id": "6398fd8ad3de3849057f5128",
+        "name": "Backup hideout key",
+        "shortName": "Hideout"
+      },
+      {
+        "id": "64ccc1fe088064307e14a6f7",
+        "name": "Beluga restaurant director key",
+        "shortName": "Beluga"
+      },
+      {
+        "id": "63a397d3af870e651d58e65b",
+        "name": "Car dealership closed section key",
+        "shortName": "LexOs sect."
+      },
+      {
+        "id": "63a399193901f439517cafb6",
+        "name": "Car dealership director's office room key",
+        "shortName": "LexOs"
+      },
+      {
+        "id": "63a39fdf1e21260da44a0256",
+        "name": "Cargo container mesh door key",
+        "shortName": "Container"
+      },
+      {
+        "id": "63a39fc0af870e651d58e6ae",
+        "name": "Chekannaya 15 apartment key",
+        "shortName": "Chek. 15"
+      },
+      {
+        "id": "64ccc1d4a0f13c24561edf27",
+        "name": "Concordia apartment 34 room key",
+        "shortName": "Conc 34"
+      },
+      {
+        "id": "64ccc1f4ff54fb38131acf27",
+        "name": "Concordia apartment 63 room key",
+        "shortName": "Conc 63"
+      },
+      {
+        "id": "63a71e922b25f7513905ca20",
+        "name": "Concordia apartment 64 key",
+        "shortName": "Conc 64"
+      },
+      {
+        "id": "63a71e86b7f4570d3a293169",
+        "name": "Concordia apartment 64 office room key",
+        "shortName": "Conc off."
+      },
+      {
+        "id": "64ccc1ec1779ad6ba200a137",
+        "name": "Concordia apartment 8 home cinema key",
+        "shortName": "Cinema"
+      },
+      {
+        "id": "63a71e781031ac76fe773c7d",
+        "name": "Concordia apartment 8 room key",
+        "shortName": "Conc 8"
+      },
+      {
+        "id": "63a39c7964283b5e9c56b280",
+        "name": "Concordia security room key",
+        "shortName": "Conc sec."
+      },
+      {
+        "id": "63a39cb1c9b3aa4b61683ee2",
+        "name": "Construction site bunkhouse key",
+        "shortName": "Construct."
+      },
+      {
+        "id": "5448ba0b4bdc2d02308b456c",
+        "name": "Factory emergency exit key",
+        "shortName": "Factory"
+      },
+      {
+        "id": "63a39667c9b3aa4b61683e98",
+        "name": "Financial institution office key",
+        "shortName": "Finance"
+      },
+      {
+        "id": "63a71ed21031ac76fe773c7f",
+        "name": "Financial institution small office key",
+        "shortName": "Finance s"
+      },
+      {
+        "id": "5ad7247386f7747487619dc3",
+        "name": "Goshan cash register key",
+        "shortName": "Goshan reg."
+      },
+      {
+        "id": "63a39f6e64283b5e9c56b289",
+        "name": "Iron gate key",
+        "shortName": "Iron gate"
+      },
+      {
+        "id": "6582dc4b6ba9e979af6b79f4",
+        "name": "MVD academy entrance hall guard room key",
+        "shortName": "MVD"
+      },
+      {
+        "id": "64ccc25f95763a1ae376e447",
+        "name": "Mysterious room marked key",
+        "shortName": "Chek. 13"
+      },
+      {
+        "id": "64ccc268c41e91416064ebc7",
+        "name": "PE teacher's office key",
+        "shortName": "PE"
+      },
+      {
+        "id": "63a39f08cd6db0635c197600",
+        "name": "Pinewood hotel room 215 key",
+        "shortName": "Pnwd 215"
+      },
+      {
+        "id": "63a39e1d234195315d4020bd",
+        "name": "Primorsky 46-48 skybridge key",
+        "shortName": "Skybridge 46-48"
+      },
+      {
+        "id": "63a71eb5b7f4570d3a29316b",
+        "name": "Primorsky 48 apartment key",
+        "shortName": "Prim 48"
+      },
+      {
+        "id": "6582dc5740562727a654ebb1",
+        "name": "Real estate agency office room key",
+        "shortName": "REA"
+      },
+      {
+        "id": "6582dbf0b8d7830efc45016f",
+        "name": "Relaxation room key",
+        "shortName": "Relax"
+      },
+      {
+        "id": "64d4b23dc1b37504b41ac2b6",
+        "name": "Rusted bloody key",
+        "shortName": "Rusted"
+      },
+      {
+        "id": "63a39fd1c9b3aa4b61683efb",
+        "name": "Stair landing key",
+        "shortName": "Stairs"
+      },
+      {
+        "id": "63a39c69af870e651d58e6aa",
+        "name": "Store manager's key",
+        "shortName": "Store"
+      },
+      {
+        "id": "63a39ce4cd6db0635c1975fa",
+        "name": "Supply department director's office key",
+        "shortName": "Supp."
+      },
+      {
+        "id": "64ccc2111779ad6ba200a139",
+        "name": "Tarbank cash register department key",
+        "shortName": "Tarbank"
+      },
+      {
+        "id": "64ccc206793ca11c8f450a38",
+        "name": "TerraGroup meeting room key",
+        "shortName": "TG meeting"
+      },
+      {
+        "id": "64ccc24de61ea448b507d34d",
+        "name": "TerraGroup security armory key",
+        "shortName": "TG arm."
+      },
+      {
+        "id": "61aa5ba8018e9821b7368da9",
+        "name": "USEC cottage second safe key",
+        "shortName": "USEC 2"
+      },
+      {
+        "id": "64ccc246ff54fb38131acf29",
+        "name": "X-ray room key",
+        "shortName": "X-ray"
+      },
+      {
+        "id": "63a39dfe3901f439517cafba",
+        "name": "Zmeisky 3 apartment 8 key",
+        "shortName": "Zm apt. 8"
+      },
+      {
+        "id": "63a39df18a56922e82001f25",
+        "name": "Zmeisky 5 apartment 20 key",
+        "shortName": "Zm apt. 20"
+      }
+    ]
+  },
+  "the-lab": {
+    "name": "The Lab",
+    "keys": [
+      {
+        "id": "5efde6b4f5448336730dbd61",
+        "name": "Keycard with a blue marking",
+        "shortName": "Keycard"
+      },
+      {
+        "id": "5c94bbff86f7747ee735c08f",
+        "name": "TerraGroup Labs access keycard",
+        "shortName": "Access"
+      },
+      {
+        "id": "5c1f79a086f7746ed066fb8f",
+        "name": "TerraGroup Labs arsenal storage room key",
+        "shortName": "TGL ASR"
+      },
+      {
+        "id": "5c1d0f4986f7744bb01837fa",
+        "name": "TerraGroup Labs keycard (Black)",
+        "shortName": "Black"
+      },
+      {
+        "id": "5c1d0c5f86f7744bb2683cf0",
+        "name": "TerraGroup Labs keycard (Blue)",
+        "shortName": "Blue"
+      },
+      {
+        "id": "5c1d0dc586f7744baf2e7b79",
+        "name": "TerraGroup Labs keycard (Green)",
+        "shortName": "Green"
+      },
+      {
+        "id": "5c1d0efb86f7744baf2e7b7b",
+        "name": "TerraGroup Labs keycard (Red)",
+        "shortName": "Red"
+      },
+      {
+        "id": "5c1e495a86f7743109743dfb",
+        "name": "TerraGroup Labs keycard (Violet)",
+        "shortName": "Violet"
+      },
+      {
+        "id": "5c1d0d6d86f7744bb2683e1f",
+        "name": "TerraGroup Labs keycard (Yellow)",
+        "shortName": "Yellow"
+      },
+      {
+        "id": "5c1e2a1e86f77431ea0ea84c",
+        "name": "TerraGroup Labs manager's office room key",
+        "shortName": "TGL MO"
+      },
+      {
+        "id": "6711039f9e648049e50b3307",
+        "name": "TerraGroup Labs residential unit keycard ",
+        "shortName": "Res. unit"
+      },
+      {
+        "id": "5c1e2d1f86f77431e9280bee",
+        "name": "TerraGroup Labs weapon testing area key",
+        "shortName": "TGL WT"
+      }
+    ]
+  },
+  "ground-zero": {
+    "name": "Ground Zero",
+    "keys": [
+      {
+        "id": "5448ba0b4bdc2d02308b456c",
+        "name": "Factory emergency exit key",
+        "shortName": "Factory"
+      },
+      {
+        "id": "658199a0490414548c0fa83b",
+        "name": "Horse restaurant toilet key",
+        "shortName": "Toilet"
+      },
+      {
+        "id": "658199aa38c79576a2569e13",
+        "name": "TerraGroup science office key",
+        "shortName": "Science"
+      },
+      {
+        "id": "658199972dc4e60f6d556a2f",
+        "name": "Underground parking utility room key",
+        "shortName": "Utility"
+      },
+      {
+        "id": "6581998038c79576a2569e11",
+        "name": "Unity Credit Bank cash register key",
+        "shortName": "UC reg."
+      }
+    ]
+  },
+  "terminal": {
+    "name": "Terminal",
+    "keys": [
+      {
+        "id": "68f213f8ea61d1803707cf7a",
+        "name": "Prapor's letter for the port checkpoint",
+        "shortName": "Letter"
+      },
+      {
+        "id": "67c033fd0610e91bea056998",
+        "name": "Reprogrammed RFID keycard with Mr. Kerman's hash codes",
+        "shortName": "RFID Mr.K"
+      },
+      {
+        "id": "67c04a6f9152fbdfa306cc66",
+        "name": "Reprogrammed RFID keycard with Prapor's hash codes",
+        "shortName": "RFID Prap."
+      },
+      {
+        "id": "67c04dac9320f644db06f45c",
+        "name": "RFID keycard with unknown name",
+        "shortName": "RFID L."
+      }
+    ]
+  },
+  "the-labyrinth": {
+    "name": "The Labyrinth",
+    "keys": [
+      {
+        "id": "67ab3d4b83869afd170fdd3f",
+        "name": "BBQ-S43 gas torch",
+        "shortName": "BBQ-S43"
+      },
+      {
+        "id": "679bab714e9ca6b3d80586b4",
+        "name": "Corpse room key",
+        "shortName": "Corpses"
+      },
+      {
+        "id": "679baa2c61f588ae2b062a24",
+        "name": "Key 01",
+        "shortName": "Key 01"
+      },
+      {
+        "id": "679baa4f59b8961f370dd683",
+        "name": "Key 02",
+        "shortName": "Key 02"
+      },
+      {
+        "id": "679baa5a59b8961f370dd685",
+        "name": "Key 03",
+        "shortName": "Key 03"
+      },
+      {
+        "id": "679baa9091966fe40408f149",
+        "name": "Key 04",
+        "shortName": "Key 04"
+      },
+      {
+        "id": "679b9819a2f2dd4da9023512",
+        "name": "Labrys access keycard",
+        "shortName": "Labrys"
+      },
+      {
+        "id": "679bac1d61f588ae2b062a26",
+        "name": "Labyrinth key",
+        "shortName": "Labyrinth"
+      },
+      {
+        "id": "679baace4e9ca6b3d80586b2",
+        "name": "Observation room key",
+        "shortName": "Observe"
+      },
+      {
+        "id": "679baae891966fe40408f14c",
+        "name": "Torture room key",
+        "shortName": "Torture"
+      },
+      {
+        "id": "678fa929819ddc4c350c0317",
+        "name": "Valve handwheel",
+        "shortName": "Wheel"
+      }
+    ]
+  }
+}

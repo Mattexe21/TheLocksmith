@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <AssemblyName>TheLocksmith</AssemblyName>
+        <RootNamespace>TheLocksmith</RootNamespace>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <!-- ship the JSON assets and config alongside the DLL -->
+    <ItemGroup>
+        <None Include="assets\**\*.*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="config\**\*.*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <!-- TheLocksmith.Client is a separate, sibling SDK project (client-side BepInEx plugin);
+         exclude it from this project's default globs so its own obj/bin output and sources
+         aren't picked up as if they belonged to the server mod. -->
+    <ItemGroup>
+        <Compile Remove="TheLocksmith.Client\**\*.*" />
+        <None Remove="TheLocksmith.Client\**\*.*" />
+        <EmbeddedResource Remove="TheLocksmith.Client\**\*.*" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="SPTarkov.Server.Core">
+            <HintPath>F:\SPT\SPT_Runtime\SPTarkov.Server.Core.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="SPTarkov.DI">
+            <HintPath>F:\SPT\SPT_Runtime\SPTarkov.DI.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="SPTarkov.Common">
+            <HintPath>F:\SPT\SPT_Runtime\SPTarkov.Common.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="SPTarkov.Reflection">
+            <HintPath>F:\SPT\SPT_Runtime\SPTarkov.Reflection.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="SemanticVersioning">
+            <HintPath>F:\SPT\SPT_Runtime\SemanticVersioning.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="0Harmony">
+            <HintPath>F:\SPT\SPT_Runtime\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <!-- After build: stage release folder and zip it; also push to live SPT install for quick testing. -->
+    <Target Name="StageRelease" AfterTargets="Build">
+        <PropertyGroup>
+            <StageDir>$(ProjectDir)release\TheLocksmith</StageDir>
+            <LiveModDir>F:\SPT\SPT_Runtime\user\mods\TheLocksmith</LiveModDir>
+        </PropertyGroup>
+
+        <!-- Clean stage -->
+        <RemoveDir Directories="$(ProjectDir)release" />
+        <MakeDir Directories="$(StageDir)" />
+
+        <!-- Copy DLL + assets/config -->
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(StageDir)" />
+        <ItemGroup>
+            <_AssetsPayload Include="$(ProjectDir)assets\**\*.*" />
+            <_ConfigPayload Include="$(ProjectDir)config\**\*.*" />
+        </ItemGroup>
+        <Copy SourceFiles="@(_AssetsPayload)" DestinationFiles="@(_AssetsPayload->'$(StageDir)\assets\%(RecursiveDir)%(Filename)%(Extension)')" />
+        <Copy SourceFiles="@(_ConfigPayload)" DestinationFiles="@(_ConfigPayload->'$(StageDir)\config\%(RecursiveDir)%(Filename)%(Extension)')" />
+
+        <!-- Zip for distribution -->
+        <ZipDirectory SourceDirectory="$(ProjectDir)release" DestinationFile="$(ProjectDir)TheLocksmith-$(Version).zip" Overwrite="true" />
+
+        <!-- Push to live SPT install (skip silently if path missing) -->
+        <RemoveDir Directories="$(LiveModDir)" Condition="Exists('$(LiveModDir)')" />
+        <MakeDir Directories="$(LiveModDir)" Condition="Exists('F:\SPT\SPT_Runtime\user\mods')" />
+        <Copy SourceFiles="@(_AssetsPayload)" DestinationFiles="@(_AssetsPayload->'$(LiveModDir)\assets\%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('F:\SPT\SPT_Runtime\user\mods')" />
+        <Copy SourceFiles="@(_ConfigPayload)" DestinationFiles="@(_ConfigPayload->'$(LiveModDir)\config\%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('F:\SPT\SPT_Runtime\user\mods')" />
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(LiveModDir)" Condition="Exists('F:\SPT\SPT_Runtime\user\mods')" />
+    </Target>
+
+</Project>

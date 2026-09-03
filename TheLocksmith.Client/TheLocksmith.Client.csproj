@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <AssemblyName>TheLocksmith.Client</AssemblyName>
+        <RootNamespace>TheLocksmith.Client</RootNamespace>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <!--
+      Client-side BepInEx/Harmony plugin. Works around a hardcoded EFT client restriction:
+      any trader-sold container that already has items inside it (a CompoundItem where
+      IsEmpty is false) is treated as non-exchangeable, gets no BarterScheme, and renders
+      greyed out with the "The item has been sold" tooltip. This has nothing to do with
+      the server-side assort data (verified correct via SPT.Server code); it's purely a
+      client-side gate. See Patches/ for the three targeted Harmony postfixes and the
+      decompiled evidence behind each one (in code comments).
+    -->
+
+    <ItemGroup>
+        <Reference Include="0Harmony">
+            <HintPath>F:\SPT\BepInEx\core\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="BepInEx">
+            <HintPath>F:\SPT\BepInEx\core\BepInEx.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="spt-reflection">
+            <HintPath>F:\SPT\BepInEx\plugins\spt\spt-reflection.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>F:\SPT\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine">
+            <HintPath>F:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>F:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine.UIModule">
+            <HintPath>F:\SPT\EscapeFromTarkov_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <!-- After build: stage release folder and zip it; also push to live SPT install for quick testing. -->
+    <Target Name="StageRelease" AfterTargets="Build">
+        <PropertyGroup>
+            <StageDir>$(ProjectDir)release\TheLocksmith.Client</StageDir>
+            <LivePluginDir>F:\SPT\BepInEx\plugins\TheLocksmith.Client</LivePluginDir>
+        </PropertyGroup>
+
+        <RemoveDir Directories="$(ProjectDir)release" />
+        <MakeDir Directories="$(StageDir)" />
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(StageDir)" />
+        <ZipDirectory SourceDirectory="$(ProjectDir)release" DestinationFile="$(ProjectDir)TheLocksmith.Client-$(Version).zip" Overwrite="true" />
+
+        <!-- Push to live SPT install (skip silently if path missing) -->
+        <MakeDir Directories="$(LivePluginDir)" Condition="Exists('F:\SPT\BepInEx\plugins')" />
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(LivePluginDir)" Condition="Exists('F:\SPT\BepInEx\plugins')" />
+    </Target>
+
+</Project>
