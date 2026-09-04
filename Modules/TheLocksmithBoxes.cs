@@ -48,8 +48,33 @@ public class TheLocksmithBoxes(
         int created = 0;
         foreach (var (mapKey, map) in modData.MapKeys)
         {
+            // Match the trader's item filtering: mapKeys.json can include keys that
+            // do not exist in the installed SPT version (for example, Terminal keys).
+            var keyTplIds = map.Keys.Select(k => new MongoId(k.Id))
+                .Where(templateTable.Items.ContainsKey)
+                .ToList();
+            if (keyTplIds.Count == 0)
+            {
+                // An unsupported map has no contents to sell and would produce a
+                // zero flea price, which CustomItemService rejects during startup.
+                logger.Warning($"[TheLocksmith.Boxes] '{mapKey}' has no keys supported by this SPT install — skipping box");
+                continue;
+            }
+
             var newId = BoxTplId(mapKey);
-            var contentsValue = map.Keys.Sum(k => handbookHelper.GetTemplatePrice(new MongoId(k.Id)));
+            var contentsValue = keyTplIds.Sum(k => handbookHelper.GetTemplatePrice(k));
+            if (!double.IsFinite(contentsValue) || contentsValue <= 0)
+            {
+                // Some supported items have no handbook price. Use the cloned pouch's
+                // value so CustomItemService never receives a zero flea price.
+                contentsValue = handbookHelper.GetTemplatePrice(new MongoId(SiccPouchTpl));
+                // Keep the template price valid even if the pouch price is unavailable.
+                if (!double.IsFinite(contentsValue) || contentsValue <= 0)
+                {
+                    contentsValue = 1;
+                }
+                logger.Warning($"[TheLocksmith.Boxes] '{mapKey}' has no valid contents price — using {contentsValue} roubles for the box template");
+            }
 
             var props = new TemplateItemProperties();
             var result = lib.CreateItem(
