@@ -6,7 +6,7 @@ namespace TheLocksmith;
 
 public record ModMetadata : IModMetadata
 {
-    public string ModGuid { get; init; } = "com.matteo.thelocksmith";
+    public string ModGuid { get; init; } = "Mattexe.TheLocksmith";
     public string Name { get; init; } = "The Locksmith";
     public string Author { get; init; } = "Matteo";
     public List<string>? Contributors { get; init; } = new();
