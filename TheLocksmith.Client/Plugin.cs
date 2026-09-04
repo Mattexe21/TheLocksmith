@@ -4,7 +4,7 @@ using TheLocksmith.Client.Patches;
 
 namespace TheLocksmith.Client;
 
-[BepInPlugin("Mattexe.TheLocksmith.Client", "TheLocksmith.Client", "1.0.0")]
+[BepInPlugin("Mattexe.TheLocksmith.Client", "TheLocksmith.Client", "1.0.1")]
 public class Plugin : BaseUnityPlugin
 {
     public static ManualLogSource? LogSource;
